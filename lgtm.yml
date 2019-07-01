@@ -1,14 +1,1 @@
-path_classifiers:
-  test:
-    - /path-classifiers/explicitly-classified/
-    - exclude: /path-classifiers/test/explicitly-unclassified/
-extraction:
-  java:
-    index:
-      build_command:
-        - ant everything
-queries:
-  - exclude:
-      tags:
-        - external/cwe/cwe-561 # Excludes query py/unreachable-except.
-  - include: py/ineffectual-statement
+symlink-target/lgtm.yml
