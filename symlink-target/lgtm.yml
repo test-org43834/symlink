@@ -7,6 +7,7 @@ extraction:
     index:
       build_command:
         - ant everything
+# Comment.
 queries:
   - exclude:
       tags:
